@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/assets1/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="static/assets1/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/assets1/css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="static/assets1/css/style.css">
+
+    <title>Validation </title>
+  </head>
+  <body>
+  
+
+  <div class="d-lg-flex half">
+    <div style="margin-left: 25%; margin-top: 5%;" class="contents order-2 order-md-1">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-7">
+            <h3>Validation Form <strong></strong></h3>
+                
+               
+                    <form action="{{ url_for('predict_lo') }}" method="POST">
+                      <h1 style="color: rgb(0, 34, 128);">Write the OTP here!</h1>
+                      <div class="form-group first">
+                        <input class="form-control" type="text" name="message" required="required" style="font-size: 12pt;  color: #333;">
+                      </div>
+                      <br />
+                      <div class="p-t-15">
+                        <button class="btn btn-block btn-primary"type="submit">Submit</button>
+                      </div>
+                    </form>
+                    
+				</div>
+			</div>
+		  </div>
+		</div>
+	
+		
+	  </div>
+		
+		
+	
+		<script src="static/assets1/js/jquery-3.3.1.min.js"></script>
+		<script src="static/assets1/js/popper.min.js"></script>
+		<script src="static/assets1/js/bootstrap.min.js"></script>
+		<script src="static/assets1/js/main.js"></script>
+	  </body>
+	</html>
