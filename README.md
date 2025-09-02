@@ -89,4 +89,3 @@ Feel free to **open an issue** or **drop a pull request**.
 
 ---
 
-👉 Do you want me to **add Installation, How to Run, and Results sections** so it’s ready for GitHub upload? Or keep it research-style for now?
