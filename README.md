@@ -1,6 +1,3 @@
-Here’s a **humanized and GitHub-friendly README** version that sounds natural but still professional:
-
----
 
 # **Machine Learning-Based Cellular Traffic Prediction Using Data Reduction Techniques**
 
